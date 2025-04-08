@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MudPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MudPortfolio.props",
+      "PackagePath": "build\\MudPortfolio.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MudPortfolio.props",
+      "PackagePath": "buildMultiTargeting\\MudPortfolio.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MudPortfolio.props",
+      "PackagePath": "buildTransitive\\MudPortfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
