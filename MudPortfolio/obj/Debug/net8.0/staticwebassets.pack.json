@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/family.jpeg"
     },
     {
+      "Id": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/ghibli.png",
+      "PackagePath": "staticwebassets/ghibli.png"
+    },
+    {
       "Id": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/headshot.jpeg",
       "PackagePath": "staticwebassets/headshot.jpeg"
     },

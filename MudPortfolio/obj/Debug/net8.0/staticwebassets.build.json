@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IJTLB/HVaTBQEo0wykUTPvt3rZNVO5HGvHVSr++FcRM=",
+  "Hash": "+9mB7XqoNQpuC3fGLXQAazqNG38SvBOF0GMUYAQTemo=",
   "Source": "MudPortfolio",
   "BasePath": "_content/MudPortfolio",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/family.jpeg"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/ghibli.png",
+      "SourceId": "MudPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/",
+      "BasePath": "_content/MudPortfolio",
+      "RelativePath": "ghibli.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ghibli.png"
     },
     {
       "Identity": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/headshot.jpeg",
