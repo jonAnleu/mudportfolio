@@ -1,23 +1,40 @@
 @*Mobile*@
-<MudContainer Class="pa-8 d-flex flex-wrap gap-6" MaxWidth="MaxWidth.Medium">
-    <MudText Class="d-flex d-md-none" Style="font-weight: 900;" Typo="Typo.h5" Color="Color.Info">About Me</MudText>
-    <MudText Class="d-flex d-md-none" >Full-stack software engineer building modern web applications with C#, Blazor, and MudBlazor. 
-      I create responsive websites, data-driven tools, and full-featured projects using SQL, Entity Framework, 
-      and a dash of cloud + AI experimentation</MudText>
-      <MudContainer Class="d-flex justify-center">
-      <MudImage Class="d-flex d-md-none rounded-lg" Fluid="true" Width="150" Height="100" Src="ghibli.png" Alt="My Headshot"/>
-      </MudContainer>
+<MudContainer Class="d-flex d-md-none flex-wrap pa-8 gap-6" MaxWidth="MaxWidth.Medium">
+  <MudText Class="d-flex d-md-none" Style="font-weight: 900;" Typo="Typo.h5" Color="Color.Info">About Me 👋</MudText>
+  <MudText Class="d-flex d-md-none">Hey there! I'm Jon, and I'm passionate about creating digital experiences. I first
+    dipped into web development in 2020 while
+    building a site for my pop-up business. That hands-on experience not only got me hooked but also gave me a solid
+    foundation in web
+    and app development.</MudText>
+  <MudText Class="d-flex d-md-none">Fast-forward to today, I’m a software engineer at Raven Solutions, and I develop
+    accessible digital solutions
+    using modern C# and Blazor stacks. My work spans responsive MudBlazor interfaces, SQL/Entity Framework data
+    architectures, and AWS cloud/AI integrations—blending technical precision with purposeful design.</MudText>
+  <MudContainer Class="d-flex d-md-none justify-center border-solid border-4 mud-border-info rounded-lg" Gutters="false">
+    <MudImage Class="d-flex d-md-none rounded-lg" Fluid="true" Width="150" Height="100" Src="ghibli.png"
+      Alt="My Headshot" />
+  </MudContainer>
 </MudContainer>
 
 @*Standard*@
-<MudContainer Class="d-none d-md-flex pa-8 d-flex flex-wrap gap-6" MaxWidth="MaxWidth.Medium">
-    <MudText Class="d-none d-md-flex" Style="font-weight: 900;" Typo="Typo.h4" Color="Color.Info">About Me</MudText>
+<MudContainer Class="d-none d-md-flex pa-8 flex-wrap gap-6" MaxWidth="MaxWidth.Medium">
+  <MudText Class="d-none d-md-flex" Style="font-weight: 900;" Typo="Typo.h4" Color="Color.Info">About Me 👋</MudText>
   <MudContainer Class="d-flex" Gutters="false">
-    <MudText Class="d-none d-md-flex" >Full-stack software engineer building modern web applications with C#, Blazor, and MudBlazor. 
-      I create responsive websites, data-driven tools, and full-featured projects using SQL, Entity Framework, 
-      and a dash of cloud + AI experimentation</MudText>
-      <MudContainer Class=" d-flex justify-center">
-      <MudImage Class="d-none d-md-flex rounded-lg" Fluid="true" Width="200" Height="150" Src="ghibli.png" Alt="My Headshot"/>
-      </MudContainer>
+    <MudStack>
+      <MudText Class="d-none d-md-flex">Hi there! I'm Jon, and I'm passionate about creating digital experiences. I
+        first dipped into web development in 2020 while
+        building a site for my pop-up business. That hands-on experience not only got me hooked but also gave me a solid
+        foundation in web
+        and app development.</MudText>
+      <MudText Class="d-none d-md-flex">Fast-forward to today, I’m a software engineer at Raven Solutions, and I develop
+        accessible digital solutions
+        using modern C# and Blazor stacks. My work spans responsive MudBlazor interfaces, SQL/Entity Framework data
+        architectures, and AWS
+        cloud/AI integrations—blending technical precision with purposeful design.</MudText>
+    </MudStack>
+    <MudContainer Class=" d-flex justify-center border-solid border-4 mud-border-info rounded-lg" Gutters="false" >
+      <MudImage Class="d-none d-md-flex rounded-lg" Fluid="true"  Src="ghibli.png"
+        Alt="My Headshot" />
+    </MudContainer>
   </MudContainer>
 </MudContainer>
