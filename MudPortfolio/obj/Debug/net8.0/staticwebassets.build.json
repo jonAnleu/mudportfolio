@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fJZkNDDh4x5950XVdAOM/F2DIhnBj2FF70TJt1EZ4Uo=",
+  "Hash": "IJTLB/HVaTBQEo0wykUTPvt3rZNVO5HGvHVSr++FcRM=",
   "Source": "MudPortfolio",
   "BasePath": "_content/MudPortfolio",
   "Mode": "Default",
@@ -72,6 +72,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/family.jpeg",
+      "SourceId": "MudPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/",
+      "BasePath": "_content/MudPortfolio",
+      "RelativePath": "family.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/family.jpeg"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/headshot.jpeg",
+      "SourceId": "MudPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/mudportfolio/MudPortfolio/wwwroot/",
+      "BasePath": "_content/MudPortfolio",
+      "RelativePath": "headshot.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/headshot.jpeg"
     }
   ]
 }

@@ -25,12 +25,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/About.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/Hero.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvSGVyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUHJvamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Pages/Home.razor]

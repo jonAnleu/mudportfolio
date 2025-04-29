@@ -1,12 +1,20 @@
-﻿<MudAppBar>
-    <MudAvatar>
-        <MudImage Src="images/mony.jpg"></MudImage>
+﻿<MudAppBar Class="pa-2">
+    <MudAvatar Class="border-2 d-none d-sm-flex" Size="Size.Large" Variant="Variant.Outlined" Color="Color.Info">
+        <MudText  Typo="Typo.h5"><strong>J</strong></MudText>
     </MudAvatar>
-    <MudText Typo="Typo.h5" Class="ml-3">Jonathan Anleu</MudText>
+     <MudAvatar Class="border-2 d-flex d-sm-none" Variant="Variant.Outlined" Color="Color.Info">
+        <MudText  Typo="Typo.h5"><strong>J</strong></MudText>
+    </MudAvatar>
     <MudSpacer />
-    <MudButton Href="/" Variant="Variant.Text" Color="Color.Tertiary" Size="Size.Small">Home</MudButton>
-    <MudButton Variant="Variant.Text" Color="Color.Tertiary" Size="Size.Small">Projects</MudButton>
-    <MudButton Variant="Variant.Text" Color="Color.Tertiary" Size="Size.Small">Articles</MudButton>
-    <MudButton Variant="Variant.Text" Color="Color.Tertiary" Size="Size.Small">Contact</MudButton>
-    @* <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />*@
+    <MudButton Class="d-none d-md-flex" Href="/" Variant="Variant.Text">About</MudButton>
+    <MudButton Class="d-none d-md-flex"Variant="Variant.Text">Projects</MudButton>
+    <MudButton Class="d-none d-md-flex" Variant="Variant.Text">Experience</MudButton>
+    <MudButton Class="d-none d-md-flex" Variant="Variant.Text">Contact</MudButton>
+    <MudButton Class="d-none d-md-flex border-2" Variant="Variant.Filled" Size="Size.Small" Color="Color.Info">Resume</MudButton>
+    <MudMenu Class="d-flex d-md-none" Icon="@Icons.Material.Filled.Menu" AnchorOrigin="Origin.BottomRight">
+    <MudMenuItem Label="About" />
+    <MudMenuItem Label="Projects" />
+    <MudMenuItem Label="Experience" />
+    <MudMenuItem Label="Contact" />
+</MudMenu>
 </MudAppBar>
