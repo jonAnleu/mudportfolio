@@ -29,6 +29,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jonanleu/repos/mudportfolio/MudPortfolio/Components/Layout/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvSGVyby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

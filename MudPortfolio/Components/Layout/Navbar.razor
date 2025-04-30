@@ -1,19 +1,28 @@
-﻿<MudAppBar Class="pa-2">
-    <MudAvatar Class="border-4 d-none d-sm-flex" Size="Size.Large" Variant="Variant.Outlined" Color="Color.Info">
-        <MudText Typo="Typo.h4"><strong>J</strong></MudText>
-    </MudAvatar>
-    <MudAvatar Class="border-4 d-flex d-sm-none" Variant="Variant.Outlined" Color="Color.Info">
+﻿@*Mobile*@
+<MudAppBar Class="d-flex d-md-none">
+    <MudAvatar Class="border-4 d-flex d-md-none" Variant="Variant.Outlined" Color="Color.Info">
         <MudText Typo="Typo.h5"><strong>J</strong></MudText>
     </MudAvatar>
     <MudSpacer />
-    <MudButton Class="d-none d-md-flex" Href="/" Variant="Variant.Text"><b>About</b></MudButton>
+     <MudMenu Class="d-flex d-md-none" Icon="@Icons.Material.Filled.Menu" AnchorOrigin="Origin.BottomRight">
+        <MudMenuItem Label="About" />
+        <MudDivider/>
+        <MudMenuItem Label="Projects" />
+        <MudDivider/>
+        <MudMenuItem Label="Experience" />
+        <MudDivider/>
+        <MudMenuItem Label="Contact" />
+    </MudMenu>
+</MudAppBar>
+
+@*Standard*@
+<MudAppBar Class="pa-2 d-none d-md-flex">
+    <MudAvatar Class="border-4 d-none d-md-flex" Size="Size.Large" Variant="Variant.Outlined" Color="Color.Info">
+        <MudText Typo="Typo.h4"><strong>J</strong></MudText>
+    </MudAvatar>
+    <MudSpacer />
+        <MudButton Class="d-none d-md-flex" Href="/" Variant="Variant.Text"><b>About</b></MudButton>
     <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Projects</b></MudButton>
     <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Experience</b></MudButton>
     <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Contact</b></MudButton>
-    <MudMenu Class="d-flex d-md-none" Icon="@Icons.Material.Filled.Menu" AnchorOrigin="Origin.BottomRight">
-        <MudMenuItem Label="About"/>
-        <MudMenuItem Label="Projects"/>
-        <MudMenuItem Label="Experience" />
-        <MudMenuItem Label="Contact" />
-    </MudMenu>
 </MudAppBar>
