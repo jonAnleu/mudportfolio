@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MudPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a81e98e0d3453f19278f29e1980a0a557492d59e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b86374be9e704c3036b93654a5d6fa44f89ebb39")]
 [assembly: System.Reflection.AssemblyProductAttribute("MudPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MudPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

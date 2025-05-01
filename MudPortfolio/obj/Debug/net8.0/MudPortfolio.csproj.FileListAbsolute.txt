@@ -1,5 +1,10 @@
+/Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/dist/web.config
 /Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/appsettings.Development.json
 /Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/appsettings.json
+/Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/dist/appsettings.Development.json
+/Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/dist/appsettings.json
+/Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/dist/MudPortfolio.deps.json
+/Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/dist/MudPortfolio.runtimeconfig.json
 /Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/MudPortfolio.staticwebassets.runtime.json
 /Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/MudPortfolio
 /Users/jonanleu/repos/mudportfolio/MudPortfolio/bin/Debug/net8.0/MudPortfolio.deps.json
