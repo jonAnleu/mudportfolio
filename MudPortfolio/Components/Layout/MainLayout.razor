@@ -1,20 +1,28 @@
 ﻿@inherits LayoutComponentBase
 
 
-<MudThemeProvider IsDarkMode/>
-<MudPopoverProvider/>
-<MudDialogProvider/>
-<MudSnackbarProvider/>
+<MudThemeProvider IsDarkMode />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
 <MudLayout>
- <Navbar/>
-    <MudMainContent>
-        <Hero/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        @*Body*@
-    </MudMainContent>
+    <Navbar />
+<MudMainContent>
+    <section id="home" Style="scroll-margin-top: 70px;">
+        <Hero />
+    </section>
+    <section id="about" Style="scroll-margin-top: 70px;">
+        <About />
+    </section>
+    <section id="projects" Style="scroll-margin-top: 70px;">
+        <Projects />
+    </section>
+    <section id="contact" Style="scroll-margin-top: 70px;">
+        <Contact />
+    </section>
+    <Footer />
+</MudMainContent>
 </MudLayout>
 
 <div id="blazor-error-ui">

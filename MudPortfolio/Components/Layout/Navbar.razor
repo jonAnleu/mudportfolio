@@ -4,25 +4,26 @@
         <MudText Typo="Typo.h5"><strong>J</strong></MudText>
     </MudAvatar>
     <MudSpacer />
-     <MudMenu Class="d-flex d-md-none" Icon="@Icons.Material.Filled.Menu" AnchorOrigin="Origin.BottomRight">
-        <MudMenuItem Label="About" />
-        <MudDivider/>
-        <MudMenuItem Label="Projects" />
-        <MudDivider/>
-        <MudMenuItem Label="Experience" />
-        <MudDivider/>
-        <MudMenuItem Label="Contact" />
+    <MudMenu Class="d-flex d-md-none" Icon="@Icons.Material.Filled.Menu" AnchorOrigin="Origin.BottomRight">
+        <MudMenuItem Href="#home" Icon="@Icons.Material.Filled.Home" Label="Home" />
+        <MudDivider />
+        <MudMenuItem Href="#about" Icon="@Icons.Material.Filled.Person" Label="About" />
+        <MudDivider />
+        <MudMenuItem Href="#projects" Icon="@Icons.Material.Filled.Code" Label="Projects" />
+        <MudDivider />
+        <MudMenuItem Href="#contact" Icon="@Icons.Material.Filled.Email" Label="Contact" />
     </MudMenu>
+    
 </MudAppBar>
 
-@*Standard*@
+@*Desktop*@
 <MudAppBar Class="pa-2 d-none d-md-flex">
     <MudAvatar Class="border-4 d-none d-md-flex" Size="Size.Large" Variant="Variant.Outlined" Color="Color.Info">
         <MudText Typo="Typo.h4"><strong>J</strong></MudText>
     </MudAvatar>
     <MudSpacer />
-        <MudButton Class="d-none d-md-flex" Href="/" Variant="Variant.Text"><b>About</b></MudButton>
-    <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Projects</b></MudButton>
-    <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Experience</b></MudButton>
-    <MudButton Class="d-none d-md-flex" Variant="Variant.Text"><b>Contact</b></MudButton>
-</MudAppBar>
+    <MudButton Class="d-none d-md-flex" Size="Size.Large" Href="#home" Variant="Variant.Text" StartIcon="@Icons.Material.Filled.Home"><b>Home</b></MudButton>
+    <MudButton Class="d-none d-md-flex" Size="Size.Large" Href="#about" Variant="Variant.Text" StartIcon="@Icons.Material.Filled.Person"><b>About</b></MudButton>
+    <MudButton Class="d-none d-md-flex" Size="Size.Large" Href="#projects" Variant="Variant.Text" StartIcon="@Icons.Material.Filled.Code"><b>Projects</b></MudButton>
+    <MudButton Class="d-none d-md-flex" Size="Size.Large" Href="#contact" Variant="Variant.Text" StartIcon="@Icons.Material.Filled.Email"><b>Contact</b></MudButton>
+</MudAppBar> 
